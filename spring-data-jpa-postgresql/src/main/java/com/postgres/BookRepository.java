@@ -1,4 +1,4 @@
-package com.mkyong;
+package com.postgres;
 
 import org.springframework.data.repository.CrudRepository;
 
