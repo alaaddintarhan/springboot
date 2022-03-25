@@ -13,7 +13,7 @@ RUN ls  /home/app/target
 #
 # For Java 8, try this FROM openjdk:8-jdk-alpine
 # For Java 11, try this
-FROM adoptopenjdk/openjdk11:alpine-jre
+FROM adoptopenjdk/openjdk11:alpine-jre as package
 # Refer to Maven build -> finalName
 ARG JAR_FILE=spring-boot-data-jpa-1.0.jar
 
